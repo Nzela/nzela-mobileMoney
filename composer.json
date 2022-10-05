@@ -1,0 +1,25 @@
+{
+    "name": "nzela/mobilemoney",
+    "description": "use for mobile paiement solutions",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nzela\\MobileMoney\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Elmarce Bounda Ndinga"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nzela\\MobileMoney\\MobileMoneyServiceProvider"
+            ]
+        }
+    }
+}
